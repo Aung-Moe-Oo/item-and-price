@@ -1,0 +1,26 @@
+.row {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ff9671;
+  min-height: 100vh;
+}
+.colLeft {
+  flex: 30%;
+  max-width: 30%;
+}
+.colRight {
+  flex: 70%;
+  max-width: 70%;
+}
+@media (max-width: 768px) {
+  .colLeft {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+  .colRight {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

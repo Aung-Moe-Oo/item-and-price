@@ -1,0 +1,22 @@
+.container {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 100vh;
+  color: #fff;
+  font-weight: bold;
+}
+.title {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 1rem;
+}
+.list,
+.title {
+  display: flex;
+  justify-content: space-around;
+}
+.list div,
+.title div {
+  flex: 25%;
+  max-width: 25%;
+  margin-bottom: 1rem;
+}
